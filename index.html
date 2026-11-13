@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Law of Conservation of Mass</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #071d32, #123e55, #087e83);
+            min-height: 100vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 35px 18px;
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 950px;
+            text-align: center;
+            padding: 55px 35px;
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 25px;
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(12px);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.25);
+        }
+
+        .top-label {
+            display: inline-block;
+            padding: 9px 20px;
+            border: 1px solid #7ce5d4;
+            border-radius: 30px;
+            color: #9ff3e3;
+            letter-spacing: 3px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .atom {
+            font-size: 55px;
+            margin: 25px 0 15px;
+        }
+
+        h1 {
+            font-size: 43px;
+            line-height: 1.2;
+            color: #ffffff;
+            letter-spacing: 1px;
+            margin-bottom: 18px;
+        }
+
+        h1 span {
+            color: #83ead8;
+        }
+
+        .subtitle {
+            font-size: 19px;
+            color: #c7e8ec;
+            margin-bottom: 25px;
+        }
+
+        .description {
+            max-width: 650px;
+            margin: auto;
+            color: #d5e7ec;
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        .law {
+            margin: 35px auto;
+            padding: 20px;
+            max-width: 600px;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            color: #a5f2e4;
+            font-size: 21px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .section-heading {
+            font-size: 21px;
+            margin: 35px 0 20px;
+            color: white;
+        }
+
+        .options {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .option {
+            width: 280px;
+            padding: 25px 20px;
+            background: rgba(255,255,255,0.10);
+            border: 1px solid rgba(255,255,255,0.18);
+            border-radius: 16px;
+            transition: 0.3s ease;
+        }
+
+        .option:hover {
+            transform: translateY(-7px);
+            background: rgba(255,255,255,0.17);
+        }
+
+        .option-icon {
+            font-size: 35px;
+            margin-bottom: 12px;
+        }
+
+        .option h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .option p {
+            color: #c8dce3;
+            font-size: 14px;
+            line-height: 1.6;
+            min-height: 45px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 18px;
+            padding: 12px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .video {
+            background: #72dfc9;
+            color: #092c3d;
+        }
+
+        .ppt {
+            background: #ffffff;
+            color: #123e55;
+        }
+
+        .button:hover {
+            opacity: 0.85;
+            transform: scale(1.04);
+        }
+
+        footer {
+            margin-top: 45px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.15);
+            color: #b5d0d8;
+            font-size: 13px;
+            line-height: 1.8;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 18px;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            .subtitle {
+                font-size: 16px;
+            }
+
+            .law {
+                font-size: 17px;
+            }
+
+            .option {
+                width: 100%;
+                max-width: 320px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="top-label">CHEMISTRY PROJECT • CLASS XII</div>
+
+        <div class="atom">⚛</div>
+
+        <h1>LAW OF<br><span>CONSERVATION OF MASS</span></h1>
+
+        <p class="subtitle">
+            Understanding the Principle Behind Every Chemical Reaction
+        </p>
+
+        <p class="description">
+            Welcome to my Chemistry project! Explore one of the
+            fundamental laws of chemistry and discover how matter
+            remains conserved throughout a chemical reaction.
+        </p>
+
+        <div class="law">
+            "Matter can neither be created nor destroyed."
+        </div>
+
+        <h2 class="section-heading">EXPLORE THE PRESENTATION</h2>
+
+        <div class="options">
+
+            <div class="option">
+                <div class="option-icon">▶</div>
+                <h3>Watch Presentation</h3>
+                <p>
+                    View the complete project as a video
+                    directly in your browser.
+                </p>
+
+                <a class="button video"
+                   href="https://drive.google.com/file/d/1yqX8XE6dRZWACbmOGI4Ji0NnA5B4szlf/preview"
+                   target="_blank">
+                    WATCH VIDEO
+                </a>
+            </div>
+
+            <div class="option">
+                <div class="option-icon">📊</div>
+                <h3>Original PowerPoint</h3>
+                <p>
+                    Download the original presentation
+                    with its animations and transitions.
+                </p>
+
+                <a class="button ppt"
+                   href="https://drive.google.com/uc?export=download&id=15o2Y_sAIhHR5MuZcToeP34ebkwnx4JNN"
+                   target="_blank">
+                    DOWNLOAD PPT
+                </a>
+            </div>
+
+        </div>
+
+        <footer>
+            A Chemistry Project | Class IX<br>
+            Exploring the Science of Matter
+        </footer>
+
+    </main>
+
+</body>
+</html>
+
+
